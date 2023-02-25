@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ESCAPI">
+      <UniqueIdentifier>{141f3b33-6843-4a87-a80b-fb9895fb4e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STB_IMAGE">
+      <UniqueIdentifier>{9dfe0475-fcc8-4e8a-a4ef-56461f70b515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="S2D">
+      <UniqueIdentifier>{1a88fcf7-10f0-487b-a01a-432cfa08c74f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="escapi\escapi.cpp">
+      <Filter>ESCAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="S2D\GLSimp2DGraphics.cpp">
+      <Filter>S2D</Filter>
+    </ClCompile>
+    <ClCompile Include="S2D\GLSimp2DLoader.cpp">
+      <Filter>S2D</Filter>
+    </ClCompile>
+    <ClCompile Include="S2D\GLSimp2DShapes.cpp">
+      <Filter>S2D</Filter>
+    </ClCompile>
+    <ClCompile Include="S2D\GLSimp2DSpriteSheet.cpp">
+      <Filter>S2D</Filter>
+    </ClCompile>
+    <ClCompile Include="S2D\GLSimp2DTypes.cpp">
+      <Filter>S2D</Filter>
+    </ClCompile>
+    <ClCompile Include="S2D\GLSimp2DWindow.cpp">
+      <Filter>S2D</Filter>
+    </ClCompile>
+    <ClCompile Include="STB\stb_image.cpp">
+      <Filter>STB_IMAGE</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorBlob.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="escapi\escapi.h">
+      <Filter>ESCAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="S2D\GLSimp2DGraphics.h">
+      <Filter>S2D</Filter>
+    </ClInclude>
+    <ClInclude Include="S2D\GLSimp2DLoader.h">
+      <Filter>S2D</Filter>
+    </ClInclude>
+    <ClInclude Include="S2D\GLSimp2DShapes.h">
+      <Filter>S2D</Filter>
+    </ClInclude>
+    <ClInclude Include="S2D\GLSimp2DSpriteSheet.h">
+      <Filter>S2D</Filter>
+    </ClInclude>
+    <ClInclude Include="S2D\GLSimp2DTypes.h">
+      <Filter>S2D</Filter>
+    </ClInclude>
+    <ClInclude Include="S2D\GLSimp2DWindow.h">
+      <Filter>S2D</Filter>
+    </ClInclude>
+    <ClInclude Include="S2D\Simp2DCommon.h">
+      <Filter>S2D</Filter>
+    </ClInclude>
+    <ClInclude Include="STB\stb_image.h">
+      <Filter>STB_IMAGE</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorBlob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
